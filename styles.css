@@ -1,0 +1,39 @@
+.nav-icon {
+    display: none;
+}
+
+.search-btn {
+    display: none;
+}
+
+.nav-items-mobile, .menu {
+    display: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+@media screen and (max-width: 1023px) {
+    .nav-icon, .search-btn {
+        display: inline;
+    }
+
+    .nav-items-mobile {
+        display: flex;
+    }
+
+    .nav-label, #search, .nav-items-pc {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .lang, .nb {
+        display: none;
+    }
+    .menu {
+        display: inline;
+    }
+}
